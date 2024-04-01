@@ -1,0 +1,163 @@
+
+body{
+    background-size: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-image: url(BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 95vh;
+    margin: 0 auto;
+    border-radius: 25px;
+    background: linear-gradient(45deg, rgba(218, 228, 236, 0.397), rgba(211, 200, 200, 0.671));
+    border: solid rgba(235, 197, 149, 0.329) 5px;
+}
+
+input{
+    background-color: rgba(255, 255, 255, 0.322);
+}
+
+
+
+.all{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    width: 300px;
+    height: 100px;
+    margin-top: 25px;
+
+}
+
+
+
+#pokemon{
+    margin-top: 100px;
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#btn{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: white;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+#btn:hover{
+    width: 155px;
+    height: 55px;
+    background-color: #e7ca47;
+}
+
+
+
+.desc{
+    width: 500px;
+    margin-top: 60px;
+    text-align: center;
+    display: none;
+}
+
+.desc_images{
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    text-align: center;
+    background-color: rgb(240, 248, 255);
+    border-radius: 20px;
+}
+
+#front{
+    margin-right: 50px;
+    width: 160px;
+    height: 150px;
+    
+}
+
+
+
+#back{
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+
+}
+
+
+.mg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+  
+}
+.stats{
+    background: linear-gradient(90deg, rgba(147, 147, 219, 0.411), rgba(226, 119, 119, 0.288));
+}
+
+.nome{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(90deg, rgba(142, 142, 204, 0.363), rgba(192, 126, 126, 0.308));
+    height: 30px;
+    border-radius: 20px 20px 0 0;
+}
+
+.desc_stats{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+}
+
+#t{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+}
+
+
+.text{
+    
+    width: 50%;
+    text-align: center;
+}
+
+
+.error{
+    margin-top: 50%;
+    display: none;
+    text-align: center;
+    
+}
