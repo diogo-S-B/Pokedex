@@ -67,7 +67,7 @@ function getDesc(dados){
     var img_back = dados.sprites.front_shiny
 
     desc_nome.innerHTML = `<h2>${nm.toUpperCase()}</h2>`;
-    desc_tipo.innerHTML = `Tipo: ${tipo}`;
+    desc_tipo.innerHTML = `Type: ${tipo}`;
     desc_img_front.innerHTML = `<img id="front" src = "${img_front}"></img>`
     desc_img_back.innerHTML = `<img id="back" src = "${img_back}"></img>`
     desc_id.innerHTML = `ID: ${id}`;
