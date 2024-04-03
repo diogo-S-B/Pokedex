@@ -1,12 +1,14 @@
 const nome = document.querySelector('#pokemon');
+const desc_skill1 = document.querySelector('#skill1')
+const desc_skill2 = document.querySelector('#skill2')
+const desc_id = document.querySelector('#id')
 const btn = document.querySelector('#btn');
+const desc_tipo = document.querySelector('#type')
+
+
 const desc_nome = document.querySelector('.nome')
-const desc_tipo = document.querySelector('.type')
 const desc_img_front = document.querySelector('.img_front')
 const desc_img_back = document.querySelector('.img_back')
-const desc_regiao = document.querySelector('.região')
-const desc_skill1 = document.querySelector('.skill1')
-const desc_skill2 = document.querySelector('.skill2')
 const desc_images = document.querySelector('.desc_images')
 
 var desc = document.querySelector('.desc')
@@ -16,7 +18,6 @@ const normal = document.querySelector('.normal')
 const shiny = document.querySelector('.shiny')
 
 
-const desc_id = document.querySelector('.id')
 
 
 
